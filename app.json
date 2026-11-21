@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Habit Quest",
+    "slug": "habit-quest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.example.habitquest"
+    },
+    "android": {
+      "package": "com.example.habitquest",
+      "adaptiveIcon": {
+        "backgroundColor": "#10B981",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png",
+      "name": "Habit Quest",
+      "shortName": "Habit Quest",
+      "backgroundColor": "#121212",
+      "themeColor": "#121212"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}
